@@ -5,7 +5,7 @@
 
 chdir('D:\Xampp\htdocs\Python');
 //putenv('PYTHONPATH=C:/xampp/htdocs/Python/Lib/site-packages/');
-$output = system("python D:/Xampp/htdocs/Python/model/lassoregressionu.py $location $area $unit $bedroom $bathroom $kitchen $Parking_spot $No_of_garden $quarter $swiming_pool $powder_room $home_power $gated_society $Security_society $Lane_society $year_of_construction $No_of_stories $furnished");
+$output = system("python D:/Xampp/htdocs/Python/lassoregressionu.py $location $area $unit $bedroom $bathroom $kitchen $Parking_spot $No_of_garden $quarter $swiming_pool $powder_room $home_power $gated_society $Security_society $Lane_society $year_of_construction $No_of_stories $furnished");
 
 
 
